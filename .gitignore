@@ -1,0 +1,10 @@
+obj/
+ipch/
+Body.opensdf
+Body.sdf
+Body.suo
+Body.vcxproj.user
+Body.vcxproj.filters
+*.pdb
+*.dll
+*.ilk
