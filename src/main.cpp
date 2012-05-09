@@ -1,13 +1,15 @@
-#include "opencv2/video/tracking.hpp"
+/*#include "opencv2/video/tracking.hpp"
 #include "opencv2/imgproc/imgproc.hpp"
 #include "opencv2/highgui/highgui.hpp"
 
 #include <iostream>
-#include <ctype.h>
+#include <ctype.h>*/
+#include "body.cpp"
 
 int main (int argc, const char** argv)
 {
-    cv::VideoCapture cap;  
+	camshiftdemo(argc,argv);
+    /*cv::VideoCapture cap;  
 	cap.open(0);
 
     if (!cap.isOpened() )
@@ -36,6 +38,6 @@ int main (int argc, const char** argv)
         if (c == 27)
             break;
     }
-
+	*/
     return 0;
 }
